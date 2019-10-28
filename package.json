@@ -1,0 +1,37 @@
+{
+  "name": "cms-react-blog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.0-beta.17.4",
+    "strapi-admin": "3.0.0-beta.17.4",
+    "strapi-hook-mongoose": "3.0.0-beta.17.4",
+    "strapi-plugin-content-manager": "3.0.0-beta.17.4",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.17.4",
+    "strapi-plugin-documentation": "3.0.0-beta.17.4",
+    "strapi-plugin-email": "3.0.0-beta.17.4",
+    "strapi-plugin-graphql": "3.0.0-beta.17.4",
+    "strapi-plugin-upload": "3.0.0-beta.17.4",
+    "strapi-plugin-users-permissions": "3.0.0-beta.17.4",
+    "strapi-utils": "3.0.0-beta.17.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "01c66f65-c8a8-4288-93f8-6c6acd47f85e"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

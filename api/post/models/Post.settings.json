@@ -1,0 +1,50 @@
+{
+  "connection": "default",
+  "collectionName": "post",
+  "info": {
+    "name": "post",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "required": true,
+      "type": "richtext"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "canonical_url": {
+      "type": "string"
+    },
+    "main_image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "topics": {
+      "enum": [
+        "stories",
+        "self"
+      ],
+      "type": "enumeration"
+    }
+  }
+}
